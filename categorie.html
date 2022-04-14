@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4e2a138e56.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>admainBoard</title>
+</head>
+
+<body>
+    <section>
+        <div class="container-fluid">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-secondary">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">adminBoard</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link link-light active" href="#">Dashboard</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-light" href="post.html">Post</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-light" href="categorie.html">Categories</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-light" href="uti.html">Utilisateurs</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav flex-wrap ms-md-auto">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link link-light dropdown-toggle" href="#" id="navbarDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false"><i
+                                        class="fa-solid fa-user"></i> Bienvenue Michou</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="profil.html"><i class="fa-solid fa-user"></i>
+                                            Profil</a></li>
+                                    <li><a class="dropdown-item" href="parametres.html"><i class="fa-solid fa-gear"></i>
+                                            Parametres</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-light" href="login.html"><i class="fa-solid fa-user-xmark"></i>
+                                    Logout</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <section class="bg-success">
+        <div class="container text-white p-2">
+            <div class="mt-5 py-3">
+                <h1><i class="fa-solid fa-folder"></i> Categories</h1>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row py-4">
+                <div class="col-6 offset-6">
+                    <form class="">
+                        <div class="input-group">
+                            <input type="text" class="form-control" aria-label="Recipient's username"
+                                aria-describedby="basic-addon2">
+                            <button class="btn btn-success">Search</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="card form-control mb-3">
+                        <table class="table table-striped">
+                            <h4>Categories</h4>
+                            <tr class="bg-dark text-white">
+                                <td># </td>
+                                <td>Titre </td>
+
+                                <td> Date du post </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+
+                                <td>Web Developpement</td>
+                                <td>Octobre 12, 2019</td>
+                                <td>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+
+                                <td>Tech Gadgets</td>
+                                <td>Octobre 13, 2019</td>
+                                <td>
+
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>4</td>
+
+                                <td>Business</td>
+                                <td>Octobre 14, 2019</td>
+                                <td>
+
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>6</td>
+
+                                <td>Heaalth & Wellness</td>
+                                <td>Octobre 16, 2019</td>
+                                <td>
+
+                                </td>
+                            </tr>
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container-fluid py-3 bg-secondary text-light">
+            <div class="row text-center ">
+                <div class="col">
+                    <h4> Copyright @ 2019 admainBoard</h4>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
